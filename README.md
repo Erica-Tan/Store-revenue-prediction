@@ -17,9 +17,9 @@ Install all dependencies by calling
 
 The following is command to run the jupyter notebook
 
-```
+
 	ipython kernel install --user --name=venv
 	jupyter notebook
 
-```
+
 
