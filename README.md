@@ -1,25 +1,10 @@
 # Store revenue prediction
 
-## Requirements
+## Docker
 
-* Python 3.7
-* virtualenv
+    docker build -t store-revenue-prediction .
 
-## Dependencies
-Create a virtual environment with `python3.7` and activate it
-
-    virtualenv venv -p /usr/bin/python3.7
-    source venv/bin/activate
-
-Install all dependencies by calling 
-
-    pip install -r requirements.txt
-
-The following is command to run the jupyter notebook
-
-
-	ipython kernel install --user --name=venv
-	jupyter notebook
+    docker run -it -p 8888:8888 -p 8787:8787 store-revenue-prediction
 
 
 
