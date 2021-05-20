@@ -1,5 +1,8 @@
 # Store revenue prediction
 
+Predict the revenue impact on the existing store by a newly opened store in the vicinity of the existing store. The objective is to maximize revenue while not impacting the existing stores of the same retail chain.
+
+
 ## Docker
 
     docker build -t store-revenue-prediction .
